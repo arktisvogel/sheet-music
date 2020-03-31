@@ -1,7 +1,5 @@
 \version "2.18.2"% -*- tab-width: 2 -*-
-% This version includes the names of the chords
-% above the staves.
-% 1026-main.ly
+% This version includes the names of the chords above the staves.
 %
 \paper {
   left-margin = 18.0\mm
