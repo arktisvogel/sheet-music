@@ -26,7 +26,6 @@ musikKlotz = \relative c'' {
     d b g b cis d |
 %   Takt 5
 	  cis b a a e a |
-%	  \break
 
 %   Takt 6
 	  a e a b cis d |
@@ -35,7 +34,6 @@ musikKlotz = \relative c'' {
 %   Takt 8
 	  d b g b cis d |
   } % End of \repeat volta 2
-%  \break
 
 % Takt 9
   \repeat volta 2 {
@@ -49,7 +47,6 @@ musikKlotz = \relative c'' {
 	  fis16 g a8 a, b cis d |
 %   Takt 13
     cis d e e fis g |
-%		\break
 
 %   Takt 14
 		a fis d b' g e |
@@ -58,7 +55,6 @@ musikKlotz = \relative c'' {
 %   Takt 16
     d b g b cis d |
   } % End of \repeat volta 2
-%  \break
 
 % Takt 17
   \repeat volta 2 {
@@ -72,7 +68,6 @@ musikKlotz = \relative c'' {
 	  d b g b cis d |
 %   Takt 21
     cis b a a a' a |
-%		\break
 
 %   Takt 22
 		a, g' g a, fis' fis |
@@ -82,10 +77,8 @@ musikKlotz = \relative c'' {
     d b g b cis d |
   } % End of \repeat volta 2
   a2. ~ |
-  a2. |
-  \bar "|."
+  a2. \bar "|."
 } % Ende der Makro \musikKlotz
-% Takt 16
 
 \score {
   \musikKlotz
